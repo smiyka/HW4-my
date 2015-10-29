@@ -1,0 +1,19 @@
+{
+  "name": "tanya",
+  "description": "cars",
+  "authors": [
+    {
+      "name": "Tanya Pedko-Melnik",
+      "email": "uasmiykaua@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Animals\\": "src/Animals"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "minimum-stability": "dev"
+}
