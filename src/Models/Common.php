@@ -34,7 +34,7 @@ class Common
      */
     protected function connect()
     {
-        $this->connect = new mysqli('localhost', 'debian-sys-maint', '1IHKxmSKVpvmWxdZ', 'cars');
+        $this->connect = new mysqli('localhost', 'login', 'password', 'cars');
 
         if (mysqli_connect_errno()) {
             throw new Exception("Подключение невозможно: " . mysqli_connect_error());
@@ -94,5 +94,6 @@ class Common
 
         return $result;
     }
+
 
 }
