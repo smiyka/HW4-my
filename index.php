@@ -7,8 +7,6 @@ $db = new Adver();
 
 $cars = $db->get();
 
-//var_dump($cars);
-
 $db  = new \Models\Make();
 
 $make = $db->find(1);
