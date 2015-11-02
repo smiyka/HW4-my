@@ -1,6 +1,6 @@
 {
-  "name": "tanya",
-  "description": "cars",
+  "name": "tanya/cars",
+  "description": "cars class",
   "authors": [
     {
       "name": "Tanya Pedko-Melnik",
@@ -9,11 +9,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Animals\\": "src/Animals"
+      "Models\\": "src/Models"
     }
   },
   "require": {
     "php": ">=5.5.0"
   },
+
   "minimum-stability": "dev"
 }
